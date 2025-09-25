@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*cover aumenta a imagem podendo cortar ela não deixa espaços vazios*/
+    background-position: 20px 50px;
+    background-attachment: scroll;
+    background-color: black;
+}
+body::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: lightgray;
+}
+
+p{
+    font-size: 90px;
+}
