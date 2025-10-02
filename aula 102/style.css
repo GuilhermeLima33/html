@@ -1,0 +1,47 @@
+h1{
+    position: fixed;
+    background-color: aquamarine;
+   text-align: center;
+}
+
+p{
+   padding-top:  200px;
+   margin: 0 100px;
+   font-size: 30px;
+}
+
+
+.caixa1{
+    background-color: brown;
+ position: absolute;
+    left: 700px ;
+    bottom: 10px;
+}
+
+
+
+.caixa2{
+    background-color: blue;
+     position: sticky;
+    top: 0;
+}
+
+
+.caixa3{
+    background-color: blueviolet;
+    position: relative;
+    top: px;
+    left: px;
+    z-index: ;
+}
+
+
+body{
+    height: 200vh;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}

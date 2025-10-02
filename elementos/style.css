@@ -1,0 +1,30 @@
+a{
+    background-color: blue;
+    padding: 7px;
+    text-decoration: none;
+    border: 7px;
+    color: black;
+}
+
+img{
+    opacity: 0.5;
+    transform: scale(1.5);
+}
+
+
+a:hover{
+background-color: aqua;
+color: brown;
+padding: 15px;
+border-radius: 50px;
+}
+
+p:hover{
+    color: chartreuse;
+}
+
+
+img:hover{
+    opacity: 1;
+    transform: scale(2);
+}

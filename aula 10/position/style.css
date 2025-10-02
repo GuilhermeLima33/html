@@ -1,0 +1,39 @@
+/* css*/
+
+div{
+    width: 150px;
+    height: 150px;
+}
+
+.caixa1{
+    background-color: brown;
+    position: static; /*pisitio padrão*/
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+
+.caixa2{
+    background-color: rgb(0, 126, 40);
+    position: absolute;
+    left: 400px ;
+    top: 150px;
+}
+
+.caixa3{
+    background-color: rgb(30, 0, 255);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+body{
+    height: 200vh;
+}
+
+
+.caixa1{
+    position: sticky;
+    top: 0;
+}
