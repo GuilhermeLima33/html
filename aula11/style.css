@@ -1,0 +1,58 @@
+/*css*/
+body{
+    display: grid;
+    grid-template-columns: 1fr 3 fr 1fr; /*3 colunas*/
+    grid-template-rows: 15% 1fr 15%; /*3 linhas*/
+
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer"
+    ;
+
+    height: 100vh;
+    gap: 10px;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+}
+
+
+nav{
+    grid-area: nav;
+    background-color: rgb(255, 0, 0);
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(53, 235, 53);
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(255, 0, 234);
+}
+
+header, footer
+{
+    color: white;
+}
+
+header, footer, main, aside, nav{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+nav{
+    flex-direction: column;
+}
+

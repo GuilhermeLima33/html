@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto ;
+
+    grid-template-areas: 
+    "img1"
+    "img2"
+    "img3"
+    "img4"
+    "img5"
+    "img6"
+    "img7"
+    "img8"
+    "img9"
+    ;
+
+    height: 100vh;
+    gap: 10px;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}

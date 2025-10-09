@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    grid-template-areas: 
+    "i1" "i2" "i3" "i4" "i5" "i6"
+    ;
+
+    height: 100vh;
+    gap: 10px;
+align-items: center;
+    
+}
+
+img{
+height: 350px ;
+width: 550px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
