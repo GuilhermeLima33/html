@@ -1,0 +1,141 @@
+.botao{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+button{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.primeiro{
+    color: white;
+background-color: rgb(255, 0, 0);
+transition: background-color 1s ease;
+font-size: 15px;
+}
+
+.primeiro:hover{
+    background-color: rgb(0, 38, 255);
+}
+
+.segundo{
+    width: 90px;
+    transition: width 3s ease;
+}
+
+.segundo:hover{
+    width: 180px;
+}
+
+.terceiro{
+    color: beige;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    transition:  background-color  0.5s ease-in ;
+}
+
+.terceiro:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px blue;
+    color: rgb(2, 3, 3);
+}
+
+body{
+    background-color: rgb(150, 158, 155);
+}
+section{
+margin: 30px 70px;
+}
+
+.section{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    box-shadow: 0px 0px 20px red;
+      height: 50px;
+    transition:  2s ease-in;
+   
+   
+    
+}
+
+.section:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px blue;
+    height: 100px;
+    font-size: 25px;
+}
+
+.paragrafo1, .paragrafo2, .paragrafo3{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+background-color: rgb(0, 60, 255);
+height: 200px;
+font-size: 20px;
+color: white;
+box-shadow: 0px 0px 20px black;
+transition: 2s ease ;
+}
+
+.paragrafo1:hover, .paragrafo2:hover , .paragrafo3:hover{
+background-color: brown;
+color: rgb(3, 3, 194);
+}
+
+
+.paragrafo3:hover{
+    transition-delay: 1s ;
+}
+
+
+
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s ease ;
+      width: 300px;
+    height: 250px;
+}
+
+.img1:hover{
+    width: 600px;
+    height: 500px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    transition: 1s ease;
+}
+
+a:hover{
+    color: rgb(155, 0, 0);
+    font-size: 33px;
+    text-decoration: underline;
+    box-shadow: 0px 0px 20px rgb(202, 0, 0);
+}
+
+

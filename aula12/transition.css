@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bola{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 360px;
+    margin: 20px;
+    transition: transform 5s;
+}
+
+.container:hover .bola{
+transform: translateX(900px);
+
+}
+.ease{
+    transition-timing-function: ease;
+    /*Devagar, acelera, devagar*/
+}
+
+.linear{
+    transition-timing-function: linear;
+    /*mesma velocidade*/
+}
+
+.ease-in{
+transition-timing-function: ease-in;
+/*devagar, acelera*/
+}
+
+.ease-out{
+    transition-timing-function: ease-out;
+    /*rapido, devagar*/
+}
+
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+    /*mistura dos dois*/
+}
+
+
+
