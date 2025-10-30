@@ -1,0 +1,55 @@
+.caixaum{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.um{
+    width: 200px;
+    height: 200px;
+}
+
+.um:hover{
+    filter:grayscale(100%);
+}
+.dois{
+    transition: 2s  ease-in;
+    width: 200px;
+    height: 200px;
+}
+
+.dois:hover{
+    filter: sepia(100%);
+    height: 250px;
+    width: 250px;
+}
+.tres{
+    width: 200px;
+    height: 200px;
+}
+.tres:hover{
+    filter: invert(100%);
+}
+.quatro{
+    width: 200px;
+    height: 200px;
+}
+.quatro:hover{
+    filter: brightness(150%);
+}
+.cinco{
+    width: 200px;
+    height: 200px;
+}
+.cinco:hover{
+    filter: brightness(150%);
+}
+.seis{
+    width: 200px;
+    height: 200px;
+}
+.seis:hover{
+    filter: contrast(200%);
+}
