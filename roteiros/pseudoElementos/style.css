@@ -1,0 +1,65 @@
+.titulo::before {
+    content: '🥸';
+    
+}
+.titulo::after {
+    content: '🚀';
+    
+}
+
+
+.titulo2::before {
+    content: '👀 ';
+    color: red;
+    font-size: 30px;
+    
+}
+.titulo2{
+    position: relative;
+}
+
+.titulo2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: royalblue;
+    width: 12%;
+    height: 5px;
+}
+
+.botao{
+    position: relative;
+
+}
+
+.botao::after{
+    content: "❤️";
+   opacity: 0;
+   transition: opacity 0.3s;
+}
+
+.botao:hover::after{
+    opacity: 1;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.menu::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.menu:hover::after{
+    width: 100%;
+}

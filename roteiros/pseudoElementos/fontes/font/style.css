@@ -1,0 +1,13 @@
+.fonte1{
+    font-family: "Montserrat", sans-serif;
+}
+
+@font-face{
+    font-family: "stack";
+    src: url(StackSansNotch-VariableFont_wght.ttf);
+
+}
+
+.fonte2{
+    font-family: "stack";
+}
